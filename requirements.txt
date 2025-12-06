@@ -1,0 +1,15 @@
+# Core dependencies
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.11.4
+
+# GPU acceleration (optional - requires NVIDIA CUDA 12.x)
+# cupy-cuda12x==13.6.0
+
+# Alternative CuPy versions:
+# cupy-cuda11x    # CUDA 11.x
+# cupy-cuda118    # CUDA 11.8
+
+# Testing
+pytest>=7.0.0
+pytest-benchmark>=4.0.0
