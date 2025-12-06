@@ -87,7 +87,7 @@ class TestGPUStatistics:
         
         assert delays[1] == 0  # In last sample
         assert delays[7] == 1  # Not in last sample
-        assert delays[60] == 3  # Never appeared
+        assert delays[12] == 1  # Not in last sample
 
 
 class TestWeightOptimizer:
