@@ -4,9 +4,9 @@ setup(
     name="python-gpu-statistical-analysis",
     version="1.0.0",
     description="GPU-accelerated statistical analysis with CPU fallback",
-    author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/YOUR_USERNAME/python-gpu-statistical-analysis",
+    author="GuilhermeP96",
+    author_email="",
+    url="https://github.com/GuilhermeP96/python-gpu-statistical-analysis",
     packages=find_packages(),
     python_requires=">=3.11",
     install_requires=[

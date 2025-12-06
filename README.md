@@ -10,6 +10,15 @@ A reference implementation for statistical analysis using GPU acceleration (CuPy
 - Sliding window validation for time-series data
 - Historical optimization tracking
 
+## Performance
+
+Benchmarks on Intel Xeon E5-2676 v3 + NVIDIA GTX 1660 SUPER:
+
+| Operation | CPU | GPU | Speedup |
+|-----------|-----|-----|---------|
+| Monte Carlo (500K) | 14.4s | 0.47s | 30x |
+| Rate | 37K sims/s | 1.1M sims/s | - |
+
 ## Requirements
 
 ### Minimum
@@ -27,7 +36,7 @@ A reference implementation for statistical analysis using GPU acceleration (CuPy
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/python-gpu-statistical-analysis.git
+git clone https://github.com/GuilhermeP96/python-gpu-statistical-analysis.git
 cd python-gpu-statistical-analysis
 
 pip install -r requirements.txt
@@ -126,8 +135,8 @@ Benchmarks on Intel Xeon E5-2676 v3 + NVIDIA GTX 1660 SUPER:
 
 | Operation | CPU | GPU | Speedup |
 |-----------|-----|-----|---------|
-| Monte Carlo (500K) | 45s | 0.9s | 50x |
-| Weight Optimization | 2min | 15s | 8x |
+| Monte Carlo (500K) | 14.4s | 0.47s | 30x |
+| Rate | 37K sims/s | 1.1M sims/s | - |
 
 ## Configuration
 
